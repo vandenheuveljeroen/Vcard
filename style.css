@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img{
+  border-radius:50%;
+
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto ;
+  grid-template-rows: auto ;
+  /*border:solid;*/
+  background-color: #
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+.nieuwepclass {
+  padding:2% 6% 6% 13%;
+}
+.grid-container3 {
+  display:grid;
+  grid-template-columns:155px  auto;
+   /*border: 1px #000*/
+   width: 100%;
+   height: 200px;
+
+}
+.grid1{
+  /*border: 1px #000;*/
+  display:flex;
+
+}
+.grid2{
+  /*border: 1px #000*/
+  display:flex;
+  flex-direction: column;
+  background-color: #0000FF;
+  color:#fff;
+}
+.foto{
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+.naam{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+}
